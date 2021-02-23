@@ -8,7 +8,7 @@ As I wanted to know more about selenium, I followed this: https://www.youtube.co
 
 Selenium is a framework that can grab source code informations from any website and make easy interaction possible which leads to creation of bots,filling up forms,using search field and so on.
 
-* to install : pip install selenium
+* selenium installation : pip install selenium
   check if import selenium showing error or not. ( showing error may indicate the package is not installed in right python interpretor)
 
 * Chrome webdriver installation:
@@ -17,7 +17,7 @@ Selenium is a framework that can grab source code informations from any website 
   Download the corresponding version from web driver.
   **REMEMBER THE FILE PATH.**
   
-<h1> Opening a webpage 
+# Opening a webpage 
   
   Now to work with selenium and web driver, write 
   from selenium import webdriver
