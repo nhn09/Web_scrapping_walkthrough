@@ -17,6 +17,14 @@ Selenium is a framework that can grab source code informations from any website 
   Download the corresponding version from web driver.
   **REMEMBER THE FILE PATH.**
   
+<h1> Opening a webpage <h1>
+  
   Now to work with selenium and web driver, write 
   from selenium import webdriver
   PATH= "path where webdriver is on your machine/chromewebdriver.exe"
+  choose driver by writing driver= webdriver.Chrome - other options like firefox phantom js all are available there.
+  inside that, assign path variable defined above and it look like driver= webdriver.Chrome(PATH).
+  Using Driver.get() method we will open any page that allows webscrapping.Pass url as parameter.Run the code and the page will be loaded in the browser.
+  
+
+
