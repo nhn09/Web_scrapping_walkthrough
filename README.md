@@ -17,7 +17,7 @@ Selenium is a framework that can grab source code informations from any website 
   Download the corresponding version from web driver.
   **REMEMBER THE FILE PATH.**
   
-<h1> Opening a webpage <h1>
+<h1> Opening a webpage 
   
   Now to work with selenium and web driver, write 
   from selenium import webdriver
